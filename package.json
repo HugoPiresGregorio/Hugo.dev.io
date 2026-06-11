@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite --config vite.config.ts --host 0.0.0.0",
-    "build": "tsc --noEmit && vite build --config vite.config.ts",
-    "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
+   "scripts": {
+    "dev": "node ./node_modules/vite/bin/vite.js --config vite.config.ts --host 0.0.0.0",
+    "build": "tsc --noEmit && node ./node_modules/vite/bin/vite.js build --config vite.config.ts",
+    "serve": "node ./node_modules/vite/bin/vite.js preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
