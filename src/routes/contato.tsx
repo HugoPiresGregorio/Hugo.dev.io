@@ -117,7 +117,7 @@ function ContactPage() {
             <div className="font-mono text-xs text-primary mb-3">// canais diretos</div>
             <div className="space-y-3">
               {[
-                { icon: Mail, label: "hug0.d3v@gmail.com", href: "mailto:hug0.d3v@gmail.com" },
+                { icon: Mail, label: "hug0.d3v@gmail.com", href: "hug0.d3v@gmail.com" },
                 { icon: Github, label: "github.com/HugoPiresGregorio", href: "https://github.com/HugoPiresGregorio" },
                 { icon: Linkedin, label: "linkedin.com/in/hugo-pires-gregorio", href: "https://www.linkedin.com/in/hugo-pires-gregorio/" },
               ].map((c) => (
